@@ -64,7 +64,6 @@ def main():
 
     t1.start()
     t2.start()
-    print("This is t1: {}".format(t1))
     t1.join()
     t1.join()
 
